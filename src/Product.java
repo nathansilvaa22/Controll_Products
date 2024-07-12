@@ -24,4 +24,14 @@ public class Product {
 
     }
 
+    public  String toString(){
+        return name
+                + ", R$ "
+                + price
+                + ", "
+                + quantity
+                + " unidades, Total: R$ "
+                + totalValueInStock();
+    }
+
 }

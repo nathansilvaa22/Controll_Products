@@ -23,7 +23,7 @@ public class Main {
         System.out.print("Quantidade no estoque:");
         product.quantity = sc.nextInt();
 
-        System.out.println("Produto: " + product.name + ", Preço: " + product.price + ", Quantidade:" + product.quantity);
+        System.out.println(product);
 
 
 
