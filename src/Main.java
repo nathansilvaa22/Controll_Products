@@ -12,7 +12,19 @@ public class Main {
 
         Product product = new Product();
 
-        
+        System.out.println("Entre com os dados do produto");
+
+        System.out.print("Nome do Produto:");
+        product.name = sc.nextLine();
+
+        System.out.print("Preço do Produto:");
+        product.price = sc.nextDouble();
+
+        System.out.print("Quantidade no estoque:");
+        product.quantity = sc.nextInt();
+
+        System.out.println("Produto: " + product.name + ", Preço: " + product.price + ", Quantidade:" + product.quantity);
+
 
 
         sc.close();
